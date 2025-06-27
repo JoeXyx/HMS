@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mapper.ExerciseLogMapper">
+
+<resultMap id="exerciseLogMap" type="ExerciseLog">
+    <result column="date" property="date"/>
+    <result column="activity_type" property="activityType"/>
+    <result column="duration_minutes" property="duration"/>
+</resultMap>
+</mapper>
